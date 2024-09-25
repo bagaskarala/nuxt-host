@@ -24,7 +24,7 @@ onMounted(() => {
       window,
       document,
       'script',
-      'http://localhost:3000/bundle.js',  // bundle generated form Nuxt 3 SSG -> npm run generate
+      '/bundle.js',  // bundle generated form Nuxt 3 SSG -> npm run generate
       'nuxt-embed-app'
     );
   };
